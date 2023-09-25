@@ -1,5 +1,5 @@
 
-# XGBoost Model for Bitcoin Technical Indicators
+# XGBoost Model for Technical Indicators
 
 This repository is dedicated to training and evaluating an XGBoost classifier on the Bitcoin technical indicators dataset. It aims to predict trading signals (like 'long', 'short', or 'neutral') based on the values of various indicators.
 
@@ -46,8 +46,12 @@ The code will generate:
 - A bar chart showcasing the feature importances.
 - A printed confusion matrix, classification report, accuracy score, and ROC-AUC score.
 - A ROC curve plot.
+![Feature Importance Chart](https://github.com/tzelalouzeir/XGBoost_Indicators_2/blob/main/img/normal_xgb_feature.png)
+![ROC](https://github.com/tzelalouzeir/XGBoost_Indicators_2/blob/main/img/normal_roc_xgb.png)
+![Performance](https://github.com/tzelalouzeir/XGBoost_Indicators_2/blob/main/img/normal_performance.PNG)
+
 
 ## Related Projects
 
-- [Technical Analysis Repository](<[https://github.com/tzelalouzeir/XGBoost_Indicators])>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
+- [Technical Analysis Repository](<https://github.com/tzelalouzeir/XGBoost_Indicators>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
 - [Repo3](<link-to-repo3>): Short description of Repo3.
