@@ -54,4 +54,4 @@ The code will generate:
 ## Related Projects
 
 - [Technical Analysis Repository](<https://github.com/tzelalouzeir/XGBoost_Indicators>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
-- [Repo3](<link-to-repo3>): Short description of Repo3.
+- [XGBoost Model Optimization](https://github.com/tzelalouzeir/XGBoost_Indicators_3): Optimizing the hyperparameters of an XGBoost classifier using the hyperopt library.
