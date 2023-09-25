@@ -3,6 +3,9 @@
 
 This repository is dedicated to training and evaluating an XGBoost classifier on the Bitcoin technical indicators dataset. It aims to predict trading signals (like 'long', 'short', or 'neutral') based on the values of various indicators.
 
+## Note
+The Signal column, which serves as the target for this model, is generated from the Technical Analysis Repository. Ensure you've processed your data there to obtain the Signal labels before using this model.
+
 ## Features
 
 1. **Data Cleaning**: Removes rows with NaN values from the dataset.
@@ -46,5 +49,5 @@ The code will generate:
 
 ## Related Projects
 
-- [Technical Analysis Repository](<[link-to-previous-repo](https://github.com/tzelalouzeir/XGBoost_Indicators)>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
+- [Technical Analysis Repository](<[https://github.com/tzelalouzeir/XGBoost_Indicators])>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
 - [Repo3](<link-to-repo3>): Short description of Repo3.
